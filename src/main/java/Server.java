@@ -1,6 +1,3 @@
-/**
- * Server interface with HTTP API.
- */
 public interface Server {
     /**
      * Bind server to HTTP port and start listening.
