@@ -14,7 +14,7 @@ It is a simple stateless application with a REST interface for validating JSON f
 ```curl -s --upload-file filename.json http://localhost```
 
 **_Example of service response in case of error_**:
-```javascript
+```
 {
  "errorCode"  : 12345,
  "errorMessage" : ["verbose, plain language description of the problem with hints about how to fix it]",
