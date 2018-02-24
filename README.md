@@ -10,7 +10,7 @@ It is a simple stateless application with a REST interface for validating JSON f
 ```docker run -d --rm -p 80:80 JsonValidation```
 
 
-Sending a file to validate:
+*Sending a file to validate*:
 ```curl -s --upload-file filename.json http://localhost```
 
 **_Example of service response in case of error_**:
